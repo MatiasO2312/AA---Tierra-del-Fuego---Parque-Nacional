@@ -5,16 +5,15 @@ Objetivo: predecir el nivel de visitas al Parque Nacional Tierra del Fuego y el 
 
 ## Datasets utilizados
 
-Todos los archivos están en `data/raw/` y provienen del Instituto Provincial de Análisis e Investigación, Estadística y Censos (IPIEC), organismo oficial de estadísticas de Tierra del Fuego.
+Los tres datasets se encuentran en `data/raw/` y provienen del **IPIEC** (Instituto Provincial de Análisis e Investigación, Estadística y Censos), organismo oficial de estadísticas de la provincia de Tierra del Fuego.
 
-- `16_1_04_Visitas-al-Parque-Nacional-TDF.xlsx`  
-  - Visitas al Parque Nacional TDF por mes, discriminadas en residentes y no residentes (2015–2026).
+> **Nota sobre visualización:** Los archivos `.xlsx` contienen múltiples hojas (datos mensuales, datos anuales, índice y ficha técnica). GitHub puede previsualizar archivos de una sola hoja, pero no archivos con varias pestañas. Por esa razón se incluyen en el repositorio para descarga directa. La descripción completa de columnas, instancias y tipos de datos se encuentra en [`docs/descripcion_dataset_y_origen.md`](docs/descripcion_dataset_y_origen.md).
 
-- `16_1_01_Pernoctaciones_ingresos_estadia_promedio.xlsx`  
-  - Pernoctaciones, cantidad de viajeros y estadía promedio por condición de residencia en Ushuaia y Río Grande (2004–2026).
-
-- `22_2_01_Meteorologia_Temperatura_Precipitaciones.xlsx`  
-  - Temperatura media, máxima, mínima, lluvia mensual y días con nieve en Ushuaia y Río Grande (2009–2025).
+| Archivo | Contenido | Período | Fuente |
+|---|---|---|---|
+| `16_1_04_Visitas-al-Parque-Nacional-TDF.xlsx` | Visitas al PN TDF por mes: total, residentes y no residentes | 2015–2026 | IPIEC – Turismo |
+| `16_1_01_Pernoctaciones_ingresos_estadia_promedio.xlsx` | Pernoctaciones, viajeros y estadía promedio en Ushuaia por mes | 2004–2026 | IPIEC – Turismo |
+| `22_2_01_Meteorologia_Temperatura_Precipitaciones.xlsx` | Temperatura, lluvia y días con nieve en Ushuaia y Río Grande por mes | 2009–2025 | IPIEC – Medio Ambiente |
 
 ## Estructura del proyecto
 
