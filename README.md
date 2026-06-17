@@ -139,6 +139,6 @@ Se exploró usar `perfil_visitante` (Residente / No_Residente) como segundo obje
 
 El video explicativo del proyecto (objetivos, datos, EDA, modelos y resultados) está disponible en:
 
-> **[Enlace al video](URL_DEL_VIDEO)**  ← reemplazar con la URL final (YouTube o archivo accesible).
+> **https://drive.google.com/file/d/1QJ10wJLcBiYEacaGGuBIRMtb7z6Znbx-/view?usp=sharing**
 
 En el video se recorre este repositorio, se muestran los notebooks y las figuras principales, y se discuten las decisiones de modelado y las conclusiones del proyecto.
